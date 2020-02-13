@@ -1,0 +1,135 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "# language: pt"
+      }
+    ],
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Cadastrar com dados armazenados",
+        "description": "",
+        "id": "cadastro-no-gmail;cadastrar-com-dados-armazenados",
+        "after": [
+          {
+            "result": {
+              "duration": 1318398358,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TesteSteps.FecharBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 9576813950,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "que estou na página de dados aleatórios",
+            "match": {
+              "location": "TesteSteps.queEstouNaPáginaDeDadosAleatórios()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 261825805,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "efetuo a geração",
+            "match": {
+              "location": "TesteSteps.efetuoAGeração()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 410239806,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "posso ver as informações obtidas",
+            "match": {
+              "location": "TesteSteps.possoVerAsInformaçõesObtidas()"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 6883726792,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "que estou na página de cadastro do Gmail",
+            "match": {
+              "location": "TesteSteps.queEstouNaPáginaDeCadastroDoGmail()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 11426066812,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "efetuo cadastro com as informações geradas",
+            "match": {
+              "location": "TesteSteps.efetuoCadastroComAsInformaçõesGeradas()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 47889963,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "acesso página para cadastrar telefone",
+            "match": {
+              "location": "TesteSteps.acessoPáginaParaCadastrarTelefone()"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 370636530,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "que forneço telefone inválido",
+            "match": {
+              "location": "TesteSteps.queForneçoTelefoneInválido()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 21704300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "sistema não permite validação do telefone",
+            "match": {
+              "location": "TesteSteps.sistemaNãoPermiteValidaçãoDoTelefone()"
+            },
+            "keyword": "Então "
+          }
+        ]
+      }
+    ],
+    "name": "Cadastro no Gmail",
+    "description": "",
+    "id": "cadastro-no-gmail",
+    "keyword": "Funcionalidade",
+    "uri": "src/test/resources/features/CadastroGmail.feature"
+  }
+]
